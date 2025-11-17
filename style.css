@@ -36,7 +36,7 @@ html{
 }
 
 #secao1{
-    background-image: url(../assets/imagem1.jpg);
+    background-image: url(./assets/imagem1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ html{
 }
 
 #secao2{
-    background-image: url(../assets/imagem1.jpg);
+    background-image: url(./assets/imagem1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,4 +246,5 @@ html{
     align-items: center;
     font-weight: bold;
     box-shadow: 1px 1px 5px rgba(0,0 ,0 , 1)
+
 }
