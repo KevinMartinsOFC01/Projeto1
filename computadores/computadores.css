@@ -1,0 +1,157 @@
+/* ===== ESTILO GERAL ===== */
+body {
+    margin: 0;
+    padding-top: 90px; /* Espaço pro menu fixo */
+    background-color: #f6f6f6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== MENU SUPERIOR ===== */
+.menu {
+    position: fixed;    
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 0 40px;
+    z-index: 10;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menu nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.menu nav a:hover {
+    color: #0077ff;
+}
+
+/* ===== TÍTULO ===== */
+.titulo {
+    text-align: center;
+    font-size: 28px;
+    color: #111;
+    margin-bottom: 30px;
+}
+
+/* ===== CONTAINER DE PRODUTOS ===== */
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: center;   
+    gap: 30px;                 
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+/* ===== CADA CARD DE PRODUTO ===== */
+.card-produto {
+    background-color: #fff;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* ===== IMAGEM DO CARD ===== */
+.card-produto img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* ===== TEXTOS DO CARD ===== */
+.card-produto h2 {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #111;
+    text-align: center;
+}
+
+.card-produto p {
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    margin: 4px 0;
+}
+
+.card-produto .preco {
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* ===== RODAPE E COOKIES ===== */
+
+.cookies-msg{
+	width: 80%;
+	background: white;
+	position: fixed;
+	bottom: 5%;
+	left: 15%;
+	border-radius: 15px;
+	transform: translate(-50px);
+	display: none;
+}
+
+.cookies-msg.mostrar{
+	display: block;
+}
+
+.cookies-msg .cookies-txt{
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	padding: 8px;
+}
+
+.cookies-msg .cookies-btn{
+	margin-left: 50px;
+}
+
+.cookies-msg .cookies-btn button{
+	background: #0069de;
+	color: white;
+	font-weight: 700;
+	font-size: 15px;
+	padding: 6.8px 50px;
+	cursor: pointer;
+	margin-top: 5px;
+	transition: .5s;
+	border: none;
+	border-radius: 8px;
+}
+
+.cookies-msg .cookies-btn button:hover{
+	transform: translate3d(-5px);
+    background: #3897FC;
+}
+
+.rodape{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 410px;
+}

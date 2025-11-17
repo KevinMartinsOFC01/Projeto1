@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Página Inicial</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <img src="../assets/logo.png" alt="Logo K-Company" class="logo">
+            <a href="index.html">Início</a>
+            <a href="../src/produtos/produtos.html">Produtos</a>
+            <a href="./computadores/computadores.html">Computadores</a>
+            <a href="./teclados/teclados.html">Teclados</a>
+            <a href="./mouses/mouses.html">Mouses</a>
+            <a href="./fones/fones.html">Fones</a>
+        </div>
+
+        <div id="secao1">
+            <img src="../assets/logo.png" width="30%" height="60%">
+            <h2>Bem-Vindo a K-Company</h2>
+            <p>Somos um e-commerce de produtos eletrônicos, voltado ao público
+                que se envolve na área de T.I.,<p> vendemos mouses, teclados, computadores
+                de filiados, entre outros diversos produtos.</p>
+            </p>
+        </div>
+
+        <div id="secao2">
+            <h2>Sobre</h2>
+        <p>A K-Company é um e-commerce especializado em produtos eletrônicos, voltado ao público que atua e se interessa pela área de tecnologia da informação. Nosso objetivo é oferecer equipamentos e acessórios de alta qualidade que atendam às demandas de profissionais e entusiastas de T.I.
+
+        Trabalhamos com uma ampla variedade de produtos como mouses, teclados, computadores de filiados e diversos outros itens tecnológicos sempre prezando por inovação, desempenho e confiabilidade.
+
+        Na K-Company, acreditamos que a tecnologia transforma o mundo, e por isso buscamos constantemente oferecer soluções modernas e acessíveis para quem deseja estar à frente no universo digital.</p>
+        </div>
+
+        <div id="secao3">
+            <h2>Contato</h2>
+            <p>Somos uma empresa de produtos eletrônicos, voltado ao público
+                que se envolve na área de T.I.,<p> vendemos mouses, teclados, computadores
+                de filiados, entre outros diversos produtos.
+            </p>
+
+            <form id="whatsappForm">
+                <input type="text" name="nome" id="nome" placeholder=" Seu nome" required>
+                <input type="text" name="e-mail" id="email" placeholder=" Seu E-Mail" required>
+                <textarea name="mensagem" id="mensagem" placeholder=" Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar no Whatsapp</button>
+
+                <p id="redes">Me siga nas redes sociais:</p>
+                <a href="https://www.youtube.com">Youtube</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/?locale=pt_BR">Facebook</a>
+            </form>
+        </div>
+
+        <div class="cookies-msg" id="cookies-msg">
+		<div class="cookies-txt">
+			<p>
+				Este site usa cookies e tecnologias afins, que são
+				pequenos arquivos ou pedaços de texto baixados para um 
+				aparelho quando o visitante acessa um website ou aplicativo.
+				Ao utilizar nosso site, você está de acordo com a utilização
+				dos cookies para te proporcionar uma melhor experiência.
+			</p>
+
+        <div class="cookies-btn">
+			<button onclick="aceito()">Aceitar os cookies</button>
+			<button onclick="naoAceito()">Não aceitar os cookies</button>
+			<button onclick="maisTarde()">Perguntar mais tarde</button>
+		</div>
+    </nav>
+
+    <div class="rodape">
+        <p>&copy; 2025 K-Company, Todos os direitos reservados.</p>
+    </div>
+
+    <script src="./style.js"></script>
+</body>
+</html>

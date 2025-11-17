@@ -1,0 +1,249 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.menu{
+    background-color: white;
+    display: flex;
+    padding: 2px;
+    width: 99%;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 2px 7px rgba(0,0 ,0 ,.6)
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 12px;
+    transition: color .2s;
+}
+
+.menu a:hover{
+    color: #0077ff;
+}
+
+.logo {
+    height: 80px;
+}
+
+#secao1{
+    background-image: url(../assets/imagem1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 17px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 12px;
+    height: 100vh;
+}
+
+#secao1 p{
+    margin-top: 15px;
+}
+
+#secao2{
+    background-image: url(../assets/imagem1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 18px;
+    border-radius: 9px;
+    padding: 12px;
+    margin: 20px auto;
+    width: 1000px;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 2px 7px rgba(0,0 ,0 ,0.3)
+}
+
+#secao2 p{
+    margin-top: 100px;
+}
+
+#secao2 h2{
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+#title{
+    margin-top: 30px;
+}
+
+#secao3{
+    background-color: #555;
+    font-size: 17px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 18px;
+    height: 80vh;
+}
+
+#secao3 p{
+    margin-top: 10px;
+}
+
+.cookies-msg{
+	width: 80%;
+	background: white;
+	position: fixed;
+	bottom: 5%;
+	left: 15%;
+	border-radius: 15px;
+	transform: translate(-50px);
+	display: none;
+}
+
+.cookies-msg.mostrar{
+	display: block;
+}
+
+.cookies-msg .cookies-txt{
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	padding: 8px;
+}
+
+.cookies-msg .cookies-btn{
+	margin-left: 50px;
+}
+
+.cookies-msg .cookies-btn button{
+	background: #0069de;
+	color: white;
+	font-weight: 700;
+	font-size: 15px;
+	padding: 6.8px 50px;
+	cursor: pointer;
+	margin-top: 5px;
+	transition: .5s;
+	border: none;
+	border-radius: 8px;
+}
+
+.cookies-msg .cookies-btn button:hover{
+	transform: translate3d(-5px);
+    background: #3897FC;
+}
+
+.button3{
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: 8px solid #333;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 175px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
+}
+
+.button3:hover{
+    transform: translateY(-5px);
+}
+
+#section3{
+    padding: 120px;
+    padding-bottom: 20%;
+    background-color: #4c4c4c;
+}
+
+#section3 h2{
+    padding: 15px;
+}
+
+#nome{
+    border-radius: 5px;
+    width: 28%;
+    height: 30px;
+    border: 1px solid #333;
+    font-size: 17px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#email{
+    border-radius: 5px;
+    width: 28%;
+    height: 30px;
+    border: 1px solid #333;
+    font-size: 17px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#mensagem{
+    border-radius: 5px;
+    width: 28%;
+    height: 140px;
+    border: 1px solid #333;
+    font-size: 17px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#secao3 button{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: 8px solid #333;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 28%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
+}
+
+#secao3 button:hover{
+    transform: translateY(-6px);
+}
+
+#secao3 a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+#redes{
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 18px;
+}
+
+.rodape{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px rgba(0,0 ,0 , 1)
+}
