@@ -36,7 +36,7 @@ html{
 }
 
 #secao1{
-    background-image: url(../../assets/imagem1.jpg);
+    background-image: url(./../assets/imagem1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,4 +228,5 @@ button3{
     text-align: center;
     align-items: center;
     font-weight: bold;
+
 }
